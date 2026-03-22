@@ -109,10 +109,3 @@ def health():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
-```
-
-**Step 5 — deploy to Railway (20 min)**
-
-Create `Procfile`:
-```
-web: gunicorn app:app
